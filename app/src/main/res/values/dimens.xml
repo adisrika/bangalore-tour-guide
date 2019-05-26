@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Height of each list item -->
+    <dimen name="list_item_dim">88dp</dimen>
+    <dimen name="icon_dim">24dp</dimen>
+    <dimen name="list_item_spacing">20dp</dimen>
+</resources>

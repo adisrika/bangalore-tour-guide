@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#6200EE</color>
+    <color name="color_primary_dark">#0400ba</color>
+    <color name="color_accent">#9e47ff</color>
+    <color name="activity_background">#F5F5F6</color>
+    <color name="category_attraction">#FFFFFF</color>
+</resources>

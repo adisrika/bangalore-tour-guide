@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bangalore Tour Guide</string>
+    <string name="sightseeing">Sightseeing</string>
+    <string name="temples">Temples</string>
+    <string name="parks">Parks</string>
+    <string name="shopping">Shopping</string>
+</resources>

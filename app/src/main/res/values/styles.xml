@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+    </style>
+
+    <style name="list">
+
+    </style>
+
+    <style name="list_item">
+        <item name="android:paddingRight">@dimen/list_item_spacing</item>
+        <item name="android:background">@color/category_attraction</item>
+    </style>
+
+    <!-- Text appearance style for a category tab -->
+    <style name="AttractionsTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="image_button" extends="?android:attr/borderlessButtonStyle">
+        <item name="android:layout_marginLeft">@dimen/list_item_spacing</item>
+    </style>
+
+    <style name="AttractionTab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/color_primary_dark</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabTextAppearance">@style/AttractionsTabTextAppearance</item>
+    </style>
+
+    <!-- Text appearance style for a category tab -->
+    <style name="AttractionTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AttractionTitleAppearance">
+        <item name="android:paddingLeft">@dimen/list_item_spacing</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Medium</item>
+    </style>
+
+</resources>
