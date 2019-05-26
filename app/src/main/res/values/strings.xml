@@ -4,4 +4,58 @@
     <string name="temples">Temples</string>
     <string name="parks">Parks</string>
     <string name="shopping">Shopping</string>
+    <string name="lalbagh_name">Lalbagh Botanical Garden</string>
+    <string name="lalbagh_location">geo:0,0?q=12.9507,77.5848 (Lalbagh)</string>
+    <string name="lalbagh_link">https://en.wikipedia.org/wiki/Lal_Bagh</string>
+    <string name="cubbon_name">Sri Chamarajendra Park</string>
+    <string name="cubbon_location">geo:0,0?q=12.9763, 77.5929 (Chamarajendra)</string>
+    <string name="cubbon_link">https://en.wikipedia.org/wiki/Cubbon_Park</string>
+    <string name="bannerghatta_name">Bannerghatta Biological Park</string>
+    <string name="bannerghatta_location">geo:0,0?q=12.8003, 77.5770 (Bannerghatta Biological Park)</string>
+    <string name="bannerghatta_link">https://en.wikipedia.org/wiki/Bannerghatta_National_Park</string>
+    <string name="sankey_name">Sankey tank</string>
+    <string name="sankey_location">geo:0,0?q=13.0093, 77.5741 (Sankey tank)</string>
+    <string name="sankey_link">https://en.wikipedia.org/wiki/Sankey_tank</string>
+    <string name="chickpet_name">Chickpet</string>
+    <string name="chickpet_location">geo:0,0?q=12.970547,77.575447 (Chickpet)</string>
+    <string name="chickpet_link">https://en.wikipedia.org/wiki/Chickpet</string>
+    <string name="brigade_name">Brigade Road</string>
+    <string name="brigade_location">geo:0,0?q=12.971335, 77.606859 (Brigade Road)</string>
+    <string name="brigade_link">https://en.wikipedia.org/wiki/Brigade_Road</string>
+    <string name="commercial_street_name">Commercial Street</string>
+    <string name="commercial_street_location">geo:0,0?q=12.982461, 77.608359 (Commercial Street)</string>
+    <string name="commercial_street_link">https://en.wikipedia.org/wiki/Commercial_Street,_Bangalore</string>
+    <string name="majestic_name">Majestic</string>
+    <string name="majestic_location">geo:0,0?q=12.977941, 77.572414 (Majestic)</string>
+    <string name="majestic_link">https://en.wikipedia.org/wiki/Kempegowda_Bus_Station</string>
+    <string name="mg_road_name">MG Road</string>
+    <string name="mg_road_location">geo:0,0?q=12.974977, 77.609386 (MG Road)</string>
+    <string name="mg_road_link">https://en.wikipedia.org/wiki/M_G_Road,_Bangalore</string>
+    <string name="nandi_hills_name">Nandi Hills</string>
+    <string name="nandi_hills_location">geo:0,0?q=13.3702,77.6835 (Nandi Hills)</string>
+    <string name="nandi_hills_link">https://en.wikipedia.org/wiki/Nandi_Hills,_India</string>
+    <string name="bangalore_palace_name">Bangalore Palace</string>
+    <string name="bangalore_palace_location">geo:0,0?q=12.9988, 77.5921 (Bangalore Palace)</string>
+    <string name="bangalore_palace_link">https://en.wikipedia.org/wiki/Bangalore_Palace</string>
+    <string name="summer_palace_name">Tipu Sultan\'s Summer Palace</string>
+    <string name="summer_palace_location">geo:0,0?q=12.9595, 77.5738 (Bangalore Palace)</string>
+    <string name="summer_palace_link">https://en.wikipedia.org/wiki/Tipu_Sultan\'s_Summer_Palace</string>
+    <string name="vidhana_soudha_name">Vidhana Soudha</string>
+    <string name="vidhana_soudha_location">geo:0,0?q=12.9779, 77.5896 (Vidhana Soudha)</string>
+    <string name="vidhana_soudha_link">https://en.wikipedia.org/wiki/Vidhana_Soudha</string>
+    <string name="banyan_tree_name">Dodda Alada Mara</string>
+    <string name="banyan_tree_location">geo:0,0?q=12.9094, 77.3958 (Big banyan tree)</string>
+    <string name="banyan_tree_link">https://en.wikipedia.org/wiki/Dodda_Alada_Mara</string>
+    <string name="iskcon_name">Iskcon Temple</string>
+    <string name="iskcon_location">geo:0,0?q=13.010157,77.551086 (Iskcon Temple)</string>
+    <string name="iskcon_link">https://en.wikipedia.org/wiki/ISKCON_Temple_Bangalore</string>
+    <string name="nandi_temple_name">Nandi Temple</string>
+    <string name="nandi_temple_location">geo:0,0?q=13.009986, 77.659277 (Nandi Temple)</string>
+    <string name="nandi_temple_link">https://en.wikipedia.org/wiki/Dodda_Basavana_Gudi</string>
+    <string name="gavi_name">Gavi Gangadhareshwara Temple</string>
+    <string name="gavi_location">geo:0,0?q=12.948452, 77.563033 (Gavi Gangadhareshwara Temple)</string>
+    <string name="gavi_link">https://en.wikipedia.org/wiki/Gavi_Gangadhareshwara_Temple</string>
+    <string name="ragiguda_name">Ragigudda Anjaneya Temple</string>
+    <string name="ragiguda_location">geo:0,0?q=12.9143, 77.5932 (Ragigudda Anjaneya Temple)</string>
+    <string name="ragiguda_link">https://en.wikipedia.org/wiki/Ragigudda_Anjaneya_Temple</string>
 </resources>

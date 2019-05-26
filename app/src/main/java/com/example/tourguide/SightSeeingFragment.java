@@ -32,11 +32,11 @@ public class SightSeeingFragment extends Fragment {
         ListView listView = rootView.findViewById(R.id.list);
         ArrayList<Attraction> attractions = new ArrayList<Attraction>() {
             {
-                add(new Attraction("Nandi Hills", Uri.parse("geo:0,0?q=13.3702,77.6835 (Nandi Hills)"), "https://en.wikipedia.org/wiki/Nandi_Hills,_India", R.drawable.nandi_hills));
-                add(new Attraction("Bangalore Palace", Uri.parse("geo:0,0?q=12.9988, 77.5921 (Bangalore Palace)"), "https://en.wikipedia.org/wiki/Bangalore_Palace", R.drawable.bangalore_palace));
-                add(new Attraction("Tipu Sultan's Summer Palace", Uri.parse("geo:0,0?q=12.9595, 77.5738 (Bangalore Palace)"), "https://en.wikipedia.org/wiki/Tipu_Sultan's_Summer_Palace", R.drawable.tipu_palace));
-                add(new Attraction("Vidhana Soudha", Uri.parse("geo:0,0?q=12.9779, 77.5896 (Vidhana Soudha)"), "https://en.wikipedia.org/wiki/Vidhana_Soudha", R.drawable.vidhana_soudha));
-                add(new Attraction("Dodda Alada Mara", Uri.parse("geo:0,0?q=12.9094, 77.3958 (Big banyan tree)"), "https://en.wikipedia.org/wiki/Dodda_Alada_Mara", R.drawable.big_tree));
+                add(new Attraction(getActivity().getString(R.string.nandi_hills_name), Uri.parse(getActivity().getString(R.string.nandi_hills_location)), getActivity().getString(R.string.nandi_hills_link), R.drawable.nandi_hills));
+                add(new Attraction(getActivity().getString(R.string.bangalore_palace_name), Uri.parse(getActivity().getString(R.string.bangalore_palace_location)), getActivity().getString(R.string.bangalore_palace_link), R.drawable.bangalore_palace));
+                add(new Attraction(getActivity().getString(R.string.summer_palace_name), Uri.parse(getActivity().getString(R.string.summer_palace_location)), getActivity().getString(R.string.summer_palace_link), R.drawable.tipu_palace));
+                add(new Attraction(getActivity().getString(R.string.vidhana_soudha_name), Uri.parse(getActivity().getString(R.string.vidhana_soudha_location)), getActivity().getString(R.string.vidhana_soudha_link), R.drawable.vidhana_soudha));
+                add(new Attraction(getActivity().getString(R.string.banyan_tree_name), Uri.parse(getActivity().getString(R.string.banyan_tree_location)), getActivity().getString(R.string.banyan_tree_link), R.drawable.big_tree));
             }
         };
         ArrayAttractionAdapter arrayAttractionAdapter = new ArrayAttractionAdapter(getActivity(), attractions);

@@ -32,10 +32,10 @@ public class ParksFragment extends Fragment {
         ListView listView = rootView.findViewById(R.id.list);
         ArrayList<Attraction> attractions = new ArrayList<Attraction>() {
             {
-                add(new Attraction("Lalbagh Botanical Garden", Uri.parse("geo:0,0?q=12.9507,77.5848 (Lalbagh)"), "https://en.wikipedia.org/wiki/Lal_Bagh", R.drawable.lalbagh));
-                add(new Attraction("Sri Chamarajendra Park", Uri.parse("geo:0,0?q=12.9763, 77.5929 (Chamarajendra)"), "https://en.wikipedia.org/wiki/Cubbon_Park", R.drawable.cubbon));
-                add(new Attraction("Bannerghatta Biological Park", Uri.parse("geo:0,0?q=12.8003, 77.5770 (Bannerghatta Biological Park)"), "https://en.wikipedia.org/wiki/Bannerghatta_National_Park", R.drawable.tiger));
-                add(new Attraction("Sankey tank", Uri.parse("geo:0,0?q=13.0093, 77.5741 (Sankey tank)"), "https://en.wikipedia.org/wiki/Sankey_tank", R.drawable.sankey_tank));
+                add(new Attraction(getActivity().getString(R.string.lalbagh_name), Uri.parse(getActivity().getString(R.string.lalbagh_location)), getActivity().getString(R.string.lalbagh_link), R.drawable.lalbagh));
+                add(new Attraction(getActivity().getString(R.string.cubbon_name), Uri.parse(getActivity().getString(R.string.cubbon_location)), getActivity().getString(R.string.cubbon_link), R.drawable.cubbon));
+                add(new Attraction(getActivity().getString(R.string.bannerghatta_name), Uri.parse(getActivity().getString(R.string.bannerghatta_location)), getActivity().getString(R.string.bannerghatta_link), R.drawable.tiger));
+                add(new Attraction(getActivity().getString(R.string.sankey_name), Uri.parse(getActivity().getString(R.string.sankey_location)), getActivity().getString(R.string.sankey_link), R.drawable.sankey_tank));
             }
         };
         ArrayAttractionAdapter arrayAttractionAdapter = new ArrayAttractionAdapter(getActivity(), attractions);

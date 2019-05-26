@@ -32,11 +32,11 @@ public class ShoppingFragment extends Fragment {
         ListView listView = rootView.findViewById(R.id.list);
         ArrayList<Attraction> attractions = new ArrayList<Attraction>() {
             {
-                add(new Attraction("Chickpet", Uri.parse("geo:0,0?q=12.970547,77.575447 (Chickpet)"), "https://en.wikipedia.org/wiki/Chickpet", R.drawable.chickpet));
-                add(new Attraction("Brigade Road", Uri.parse("geo:0,0?q=12.971335, 77.606859 (Brigade Road)"), "https://en.wikipedia.org/wiki/Brigade_Road", R.drawable.brigade));
-                add(new Attraction("Commercial Street", Uri.parse("geo:0,0?q=12.982461, 77.608359 (Commercial Street)"), "https://en.wikipedia.org/wiki/Commercial_Street,_Bangalore", R.drawable.commercial));
-                add(new Attraction("Majestic", Uri.parse("geo:0,0?q=12.977941, 77.572414 (Majestic)"), "https://en.wikipedia.org/wiki/Kempegowda_Bus_Station", R.drawable.majestic));
-                add(new Attraction("MG Road", Uri.parse("geo:0,0?q=12.974977, 77.609386 (MG Road)"), "https://en.wikipedia.org/wiki/M_G_Road,_Bangalore", R.drawable.mgroad));
+                add(new Attraction(getActivity().getString(R.string.chickpet_name), Uri.parse(getActivity().getString(R.string.chickpet_location)), getActivity().getString(R.string.chickpet_link), R.drawable.chickpet));
+                add(new Attraction(getActivity().getString(R.string.brigade_name), Uri.parse(getActivity().getString(R.string.brigade_location)), getActivity().getString(R.string.brigade_link), R.drawable.brigade));
+                add(new Attraction(getActivity().getString(R.string.commercial_street_name), Uri.parse(getActivity().getString(R.string.commercial_street_location)), getActivity().getString(R.string.commercial_street_link), R.drawable.commercial));
+                add(new Attraction(getActivity().getString(R.string.majestic_name), Uri.parse(getActivity().getString(R.string.majestic_location)), getActivity().getString(R.string.majestic_link), R.drawable.majestic));
+                add(new Attraction(getActivity().getString(R.string.mg_road_name), Uri.parse(getActivity().getString(R.string.mg_road_location)), getActivity().getString(R.string.mg_road_link), R.drawable.mgroad));
             }
         };
         ArrayAttractionAdapter arrayAttractionAdapter = new ArrayAttractionAdapter(getActivity(), attractions);

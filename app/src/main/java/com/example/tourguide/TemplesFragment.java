@@ -32,10 +32,10 @@ public class TemplesFragment extends Fragment {
         ListView listView = rootView.findViewById(R.id.list);
         ArrayList<Attraction> attractions = new ArrayList<Attraction>() {
             {
-                add(new Attraction("Iskcon Temple", Uri.parse("geo:0,0?q=13.010157,77.551086 (Iskcon Temple)"), "https://en.wikipedia.org/wiki/ISKCON_Temple_Bangalore", R.drawable.iskcon));
-                add(new Attraction("Nandi Temple", Uri.parse("geo:0,0?q=13.009986, 77.659277 (Nandi Temple)"), "https://en.wikipedia.org/wiki/Dodda_Basavana_Gudi", R.drawable.bull));
-                add(new Attraction("Gavi Gangadhareshwara Temple", Uri.parse("geo:0,0?q=12.948452, 77.563033 (Gavi Gangadhareshwara Temple)"), "https://en.wikipedia.org/wiki/Gavi_Gangadhareshwara_Temple", R.drawable.gg));
-                add(new Attraction("Ragigudda Anjaneya Temple", Uri.parse("geo:0,0?q=12.9143, 77.5932 (Ragigudda Anjaneya Temple)"), "https://en.wikipedia.org/wiki/Ragigudda_Anjaneya_Temple", R.drawable.ragigudda));
+                add(new Attraction(getActivity().getString(R.string.iskcon_name), Uri.parse(getActivity().getString(R.string.iskcon_location)), getActivity().getString(R.string.iskcon_link), R.drawable.iskcon));
+                add(new Attraction(getActivity().getString(R.string.nandi_temple_name), Uri.parse(getActivity().getString(R.string.nandi_temple_location)), getActivity().getString(R.string.nandi_temple_link), R.drawable.bull));
+                add(new Attraction(getActivity().getString(R.string.gavi_name), Uri.parse(getActivity().getString(R.string.gavi_location)), getActivity().getString(R.string.gavi_link), R.drawable.gg));
+                add(new Attraction(getActivity().getString(R.string.ragiguda_name), Uri.parse(getActivity().getString(R.string.ragiguda_location)), getActivity().getString(R.string.ragiguda_link), R.drawable.ragigudda));
             }
         };
         ArrayAttractionAdapter arrayAttractionAdapter = new ArrayAttractionAdapter(getActivity(), attractions);
